@@ -1,5 +1,6 @@
 <script lang="ts">
-  let count: number = $state(0)
+  let {count} = $props()
+
   const increment = () => {
     count += 1
   }
